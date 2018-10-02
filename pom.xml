@@ -24,24 +24,25 @@
 		<java.version>1.8</java.version>
 	</properties>
 	
+	
 	<distributionManagement>
 	    <repository>
-	        <id>central</id>
-	        <name>VM-MARCOs-MacBook-Pro.local-releases</name>
+	        <id>release</id>
+	        <name>releases</name>
 	        <url>http://localhost:8081/artifactory/libs-release-local</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	        <id>snapshots</id>
-	        <name>VM-MARCOs-MacBook-Pro.local-snapshots</name>
+	        <id>snapshot</id>
+	        <name>snapshots</name>
 	        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     		</snapshotRepository>
 	</distributionManagement>
 	
 	<scm>
-	  <connection>scm:git:git://github.com/mmazariegostigogt/devops.git</connection>
+	  <connection>scm:git:git@github.com:mmazariegostigogt/devops.git</connection>
 	  <developerConnection>scm:git:git@github.com:mmazariegostigogt/devops.git</developerConnection>
-	  <url>https://github.com/mmazariegostigogt/devops</url>
+	  <url>git@github.com:mmazariegostigogt/devops.git</url>
 	  <tag>HEAD</tag>
 	</scm>
 
