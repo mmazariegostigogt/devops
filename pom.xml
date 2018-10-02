@@ -27,13 +27,13 @@
 	
 	<distributionManagement>
 	    <repository>
-	        <id>central</id>
+	        <id>release</id>
 	        <name>VM-MARCOs-MacBook-Pro.local-releases</name>
 	        <url>http://localhost:8081/artifactory/libs-release-local</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	        <id>snapshots</id>
+	        <id>snapshot</id>
 	        <name>VM-MARCOs-MacBook-Pro.local-snapshots</name>
 	        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     		</snapshotRepository>
