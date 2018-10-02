@@ -39,9 +39,9 @@
 	</distributionManagement>
 	
 	<scm>
-	  <connection>scm:git:git@github.com:mmazariegostigogt/devops.git</connection>
+	  <connection>scm:git:git://github.com/mmazariegostigogt/devops.git</connection>
 	  <developerConnection>scm:git:git@github.com:mmazariegostigogt/devops.git</developerConnection>
-	  <url>git@github.com:mmazariegostigogt/devops.git</url>
+	  <url>https://github.com/mmazariegostigogt/devops</url>
 	  <tag>HEAD</tag>
 	</scm>
 
